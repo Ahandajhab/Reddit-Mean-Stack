@@ -1,0 +1,12 @@
+mkdir -p /home/briancknodel/webapps/mean/run
+pid=$(/sbin/pidof /home/briancknodel/webapps/mean/bin/node)
+if echo "$pid" | grep -q " "; then
+    pid=""
+fi
+if [ -n "$pid" ]; then
+  user=$(ps -p $pid -o user | tail -n 1)
+  if [ $user = "briancknodel" ]; then
+    kill "$pid"
+    rm -f /home/briancknodel/webapps/mean/run/node.pid
+  fi
+fi

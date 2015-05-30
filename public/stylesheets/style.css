@@ -1,0 +1,78 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #bdc3c7;
+}
+media="all" .link .usertext-body .md {
+  background-color: #fafafa;
+  border: 1px solid #369;
+  border-radius: 7px;
+}
+a {
+  color: #00B7FF;
+}
+media="all" .expando {
+  clear: left;
+  margin: 5px 0 5px 0;
+}
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+media="all" .link .table {
+  font-size: medium;
+  font-weight: normal;
+  margin-bottom: 1px;
+}
+#header {
+  background: #b4cfd8;
+  border-bottom: none;
+  margin-left: 20px;
+}
+div {
+  display: block;
+}
+media="all" #header-bottom-left {
+  font-size: larger;
+}
+#sr-header-area {
+  background-color: #fdfdfd!important;
+  border-bottom-left-radius: 10px!important;
+  border: 0px!important;
+}
+#sr-header-area {
+  background-color: #f0f0f0;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-bottom: 1px solid gray;
+  font-size: 90%;
+  height: 18px;
+  line-height: 18px;
+}
+media="all" .sitetable {
+  list-style-type: none;
+}
+media="all" .md-container {
+  font-size: small;
+}
+media="all" .thing .title {
+  color: blue;
+  outline: none;
+  margin-right: .4em;
+  padding: 0px;
+  overflow: hidden;
+}
+#header ~ .content .commentarea .comment {
+  border: .1em solid #aaa!important;
+  border-radius: 0!important;
+  margin-left: 0!important;
+  margin: .2em 0 .5em;
+  padding: .3em .4em!important;
+}
